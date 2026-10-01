@@ -1,0 +1,34 @@
+[
+  {
+    "type": "text",
+    "name": "fullName",
+    "label": "Full name",
+    "value": "",
+    "required": true,
+    "placeholder": "Jane Doe"
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "label": "Email",
+    "value": "",
+    "required": true,
+    "placeholder": "jane@example.com"
+  },
+  {
+    "type": "select",
+    "name": "country",
+    "label": "Country",
+    "value": "",
+    "options": [
+      { "label": "India", "value": "IN" },
+      { "label": "United States", "value": "US" }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "name": "subscribe",
+    "label": "Subscribe to newsletter",
+    "value": false
+  }
+]
